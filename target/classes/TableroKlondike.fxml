@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Scene xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controladores.KlondikeController">
+    <AnchorPane prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: green;">
+      <children>
+         <Rectangle fx:id="Cimiento1" arcHeight="5.0" arcWidth="5.0" fill="#bcc6d0" height="60.0" layoutX="300.0" layoutY="20.0" onMouseClicked="#SeleccionarCarta" opacity="0.4" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+         <Rectangle fx:id="Basura" arcHeight="5.0" arcWidth="5.0" fill="#bcc6d0" height="60.0" layoutX="110.0" layoutY="20.0" onMouseClicked="#SeleccionarCarta" opacity="0.62" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+         <Rectangle fx:id="Cimiento2" arcHeight="5.0" arcWidth="5.0" fill="#bcc6d0" height="60.0" layoutX="360.0" layoutY="20.0" onMouseClicked="#SeleccionarCarta" opacity="0.4" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+         <Rectangle fx:id="Cimiento3" arcHeight="5.0" arcWidth="5.0" fill="#bcc6d0" height="60.0" layoutX="420.0" layoutY="20.0" onMouseClicked="#SeleccionarCarta" opacity="0.4" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+         <Rectangle fx:id="Cimiento4" arcHeight="5.0" arcWidth="5.0" fill="#bcc6d0" height="60.0" layoutX="480.0" layoutY="20.0" onMouseClicked="#SeleccionarCarta" opacity="0.4" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+         <Rectangle fx:id="Baraja" arcHeight="5.0" arcWidth="5.0" fill="RED" height="60.0" layoutX="50.0" layoutY="20.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+         <Rectangle fx:id="C1_1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="95.0" layoutY="120.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C1_2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="95.0" layoutY="140.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Text fx:id="L1_1" disable="true" layoutX="100.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L1_2" disable="true" layoutX="100.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Rectangle fx:id="C1_3" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="95.0" layoutY="160.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C1_4" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="95.0" layoutY="180.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C1_5" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="95.0" layoutY="200.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Text fx:id="L1_3" disable="true" layoutX="100.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Rectangle fx:id="C1_6" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="95.0" layoutY="220.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C1_7" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="95.0" layoutY="240.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C1_8" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="95.0" layoutY="260.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C1_9" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="95.0" layoutY="280.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C1_10" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="95.0" layoutY="300.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C1_11" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="95.0" layoutY="320.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C1_12" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="95.0" layoutY="340.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C1_13" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="95.0" layoutY="360.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Text fx:id="L1_4" disable="true" layoutX="100.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L1_5" disable="true" layoutX="100.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L1_6" disable="true" layoutX="100.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L1_7" disable="true" layoutX="100.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L1_8" disable="true" layoutX="100.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L1_9" disable="true" layoutX="100.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L1_10" disable="true" layoutX="100.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L1_11" disable="true" layoutX="100.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L1_12" disable="true" layoutX="100.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L1_13" disable="true" layoutX="100.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Rectangle fx:id="C2_1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="155.0" layoutY="120.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C2_2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="155.0" layoutY="140.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C2_3" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="155.0" layoutY="160.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C2_4" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="155.0" layoutY="180.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C2_5" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="155.0" layoutY="200.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C2_6" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="155.0" layoutY="220.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C2_7" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="155.0" layoutY="240.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C2_8" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="155.0" layoutY="260.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C2_9" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="155.0" layoutY="280.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C2_10" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="155.0" layoutY="300.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C2_11" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="155.0" layoutY="320.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C2_12" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="155.0" layoutY="340.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C2_13" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="155.0" layoutY="360.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Text fx:id="L2_1" disable="true" layoutX="160.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L2_2" disable="true" layoutX="160.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L2_3" disable="true" layoutX="160.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L2_4" disable="true" layoutX="160.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L2_5" disable="true" layoutX="160.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L2_6" disable="true" layoutX="160.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L2_7" disable="true" layoutX="160.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L2_8" disable="true" layoutX="160.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L2_9" disable="true" layoutX="160.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L2_10" disable="true" layoutX="160.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L2_11" disable="true" layoutX="160.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L2_12" disable="true" layoutX="160.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L2_13" disable="true" layoutX="160.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Rectangle fx:id="C3_1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="215.0" layoutY="120.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C3_2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="215.0" layoutY="140.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C3_3" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="215.0" layoutY="160.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C3_4" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="215.0" layoutY="180.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C3_5" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="215.0" layoutY="200.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C3_6" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="215.0" layoutY="220.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C3_7" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="215.0" layoutY="240.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C3_8" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="215.0" layoutY="260.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C3_9" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="215.0" layoutY="280.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C3_10" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="215.0" layoutY="300.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C3_11" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="215.0" layoutY="320.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C3_12" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="215.0" layoutY="340.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C3_13" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="215.0" layoutY="360.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Text fx:id="L3_1" disable="true" layoutX="220.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L3_2" disable="true" layoutX="220.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L3_3" disable="true" layoutX="220.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L3_4" disable="true" layoutX="220.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L3_5" disable="true" layoutX="220.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L3_6" disable="true" layoutX="220.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L3_7" disable="true" layoutX="220.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L3_12" disable="true" layoutX="220.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L3_8" disable="true" layoutX="220.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L3_9" disable="true" layoutX="220.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L3_10" disable="true" layoutX="220.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L3_11" disable="true" layoutX="220.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L3_13" disable="true" layoutX="220.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Rectangle fx:id="C4_1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="275.0" layoutY="120.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C4_2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="275.0" layoutY="140.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C4_3" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="275.0" layoutY="160.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C4_4" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="275.0" layoutY="180.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C4_5" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="275.0" layoutY="200.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C4_6" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="275.0" layoutY="220.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C4_7" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="275.0" layoutY="240.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C4_8" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="275.0" layoutY="260.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C4_9" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="275.0" layoutY="280.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C4_10" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="275.0" layoutY="300.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C4_11" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="275.0" layoutY="320.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C4_12" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="275.0" layoutY="340.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C4_13" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="275.0" layoutY="360.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Text fx:id="L4_1" disable="true" layoutX="280.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L4_2" disable="true" layoutX="280.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L4_3" disable="true" layoutX="280.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L4_4" disable="true" layoutX="280.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L4_5" disable="true" layoutX="280.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L4_6" disable="true" layoutX="280.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L4_7" disable="true" layoutX="280.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L4_8" disable="true" layoutX="280.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L4_9" disable="true" layoutX="280.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L4_10" disable="true" layoutX="280.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L4_11" disable="true" layoutX="280.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L4_12" disable="true" layoutX="280.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L4_13" disable="true" layoutX="280.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Rectangle fx:id="C5_1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="335.0" layoutY="120.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C5_2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="335.0" layoutY="140.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C5_3" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="335.0" layoutY="160.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C5_4" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="335.0" layoutY="180.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C5_5" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="335.0" layoutY="200.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C5_6" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="335.0" layoutY="220.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C5_7" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="335.0" layoutY="240.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C5_8" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="335.0" layoutY="260.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C5_9" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="335.0" layoutY="280.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C5_10" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="335.0" layoutY="300.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C5_11" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="335.0" layoutY="320.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C5_12" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="335.0" layoutY="340.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C5_13" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="335.0" layoutY="360.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Text fx:id="L5_1" disable="true" layoutX="340.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L5_2" disable="true" layoutX="340.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L5_3" disable="true" layoutX="340.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L5_4" disable="true" layoutX="340.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L5_5" disable="true" layoutX="340.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L5_6" disable="true" layoutX="340.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L5_7" disable="true" layoutX="340.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L5_8" disable="true" layoutX="340.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L5_9" disable="true" layoutX="340.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L5_10" disable="true" layoutX="340.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L5_11" disable="true" layoutX="340.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L5_12" disable="true" layoutX="340.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L5_13" disable="true" layoutX="340.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Rectangle fx:id="C6_1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="395.0" layoutY="120.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C6_2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="395.0" layoutY="140.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C6_3" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="395.0" layoutY="160.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C6_4" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="395.0" layoutY="180.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C6_5" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="395.0" layoutY="200.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C6_6" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="395.0" layoutY="220.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C6_7" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="395.0" layoutY="240.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C6_8" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="395.0" layoutY="260.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C6_9" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="395.0" layoutY="280.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C6_10" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="395.0" layoutY="300.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C6_11" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="395.0" layoutY="320.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C6_12" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="395.0" layoutY="340.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C6_13" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="395.0" layoutY="360.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Text fx:id="L6_1" disable="true" layoutX="400.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L6_2" disable="true" layoutX="400.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L6_3" disable="true" layoutX="400.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L6_4" disable="true" layoutX="400.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L6_5" disable="true" layoutX="400.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L6_6" disable="true" layoutX="400.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L6_7" disable="true" layoutX="400.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L6_8" disable="true" layoutX="400.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L6_9" disable="true" layoutX="400.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L6_10" disable="true" layoutX="400.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L6_11" disable="true" layoutX="400.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L6_12" disable="true" layoutX="400.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L6_13" disable="true" layoutX="400.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Rectangle fx:id="C7_1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="455.0" layoutY="120.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C7_2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="455.0" layoutY="140.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C7_3" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="455.0" layoutY="160.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C7_4" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="455.0" layoutY="180.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C7_5" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="455.0" layoutY="200.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C7_6" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="455.0" layoutY="220.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C7_7" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="455.0" layoutY="240.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C7_8" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="455.0" layoutY="260.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C7_9" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="455.0" layoutY="280.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C7_10" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="455.0" layoutY="300.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C7_11" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="455.0" layoutY="320.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C7_12" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="455.0" layoutY="340.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Rectangle fx:id="C7_13" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="455.0" layoutY="360.0" onMouseClicked="#SeleccionarCarta" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+         <Text fx:id="L7_1" disable="true" layoutX="460.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L7_13" disable="true" layoutX="460.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L7_12" disable="true" layoutX="460.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L7_11" disable="true" layoutX="460.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L7_10" disable="true" layoutX="460.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L7_9" disable="true" layoutX="460.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L7_8" disable="true" layoutX="460.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L7_7" disable="true" layoutX="460.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L7_6" disable="true" layoutX="460.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L7_5" disable="true" layoutX="460.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L7_4" disable="true" layoutX="460.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L7_3" disable="true" layoutX="460.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L7_2" disable="true" layoutX="460.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L_B" disable="true" layoutX="115.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L_C1" disable="true" layoutX="305.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L_C2" disable="true" layoutX="365.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L_C3" disable="true" layoutX="425.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Text fx:id="L_C4" disable="true" layoutX="485.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+         <Rectangle fx:id="ventanaRecuperar" arcHeight="5.0" arcWidth="5.0" disable="true" fill="WHITE" height="223.0" layoutX="97.0" layoutY="169.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="436.0" />
+         <Text fx:id="txtRecuperacion" disable="true" layoutX="159.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿DESEA CONTINUAR LA PARTIDA?" visible="false" wrappingWidth="312.3567199707031">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Text>
+         <Button fx:id="btnSi" disable="true" layoutX="240.0" layoutY="248.0" mnemonicParsing="false" onMouseClicked="#recuperaPartida" prefHeight="47.0" prefWidth="150.0" text="Si" visible="false" />
+         <Button fx:id="btnNo" disable="true" layoutX="240.0" layoutY="296.0" mnemonicParsing="false" onMouseClicked="#partidaNueva" prefHeight="47.0" prefWidth="150.0" text="No" visible="false" />
+         <Rectangle fx:id="ventanaGanador" arcHeight="5.0" arcWidth="5.0" disable="true" fill="WHITE" height="200.0" layoutX="122.0" layoutY="102.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="356.0" />
+         <Text fx:id="txtGanador" disable="true" layoutX="141.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FELICIDADES, GANO!" textAlignment="CENTER" visible="false" wrappingWidth="318.1366882324219">
+            <font>
+               <Font name="Consolas Bold Italic" size="31.0" />
+            </font>
+         </Text>
+         <Button fx:id="btnNuevaPartida" disable="true" layoutX="247.0" layoutY="183.0" mnemonicParsing="false" onMouseClicked="#nuevaPartida" prefHeight="38.0" prefWidth="105.0" text="Nueva Partida" visible="false" />
+         </children></AnchorPane>
+</Scene>
